@@ -1,0 +1,100 @@
+@font-face {
+  font-family: RobotoSlap;
+  src: url(/font/roboto-slab/RobotoSlab-Regular.ttf);
+}
+body {
+  background-color: #444444;
+}
+
+.greetings {
+  text-align: center;
+  margin-top: 8em;
+}
+.greetings h1 {
+  color: #bcc6bc;
+  font-family: RobotoSlap;
+}
+
+.container-fluid {
+  margin-top: 2em;
+  width: 450px;
+  height: 20rem;
+  background: rgba(134, 129, 129, 0.5);
+  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5), 5px 5px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.container-fluid .quotes p {
+  padding: 1em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1em;
+  font-family: "Inter";
+  font-size: 25px;
+  color: #ffffff;
+}
+.container-fluid .lingkaran {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+.container-fluid .lingkaran button {
+  bottom: 25%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #38ad3d;
+  box-shadow: 5px -5px 11px #000000;
+  border: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+.container-fluid .lingkaran button:hover {
+  background: #1ac623;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  .container-fluid {
+    margin-top: 2em;
+    width: 350px;
+    height: 20rem;
+    background: rgba(134, 129, 129, 0.5);
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5), 5px 5px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  .container-fluid .quotes {
+    padding-top: 0.1em;
+  }
+  .container-fluid .quotes p {
+    padding: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+    font-family: "Inter";
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .container-fluid .lingkaran {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+  }
+  .container-fluid .lingkaran button {
+    bottom: 19%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #38ad3d;
+    box-shadow: 5px -5px 11px #000000;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .container-fluid .lingkaran button:hover {
+    background: #1ac623;
+  }
+}/*# sourceMappingURL=main.css.map */
