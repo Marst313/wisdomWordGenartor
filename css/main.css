@@ -54,9 +54,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: red;
-  }
   .container-fluid {
     margin-top: 2em;
     width: 350px;
@@ -110,4 +107,5 @@ body {
 .footer .container p {
   margin-top: 5%;
   font-size: 1em;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
