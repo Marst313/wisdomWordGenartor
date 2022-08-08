@@ -17,9 +17,10 @@ const quotes = [
 
 function createName() {
   const greetingsName = prompt('Insert Your Name !');
+
   document.querySelector('#nama').textContent = `Hello ${greetingsName} !`;
 }
-// createName();
+createName();
 
 btnDice.addEventListener('click', function () {
   let randomNumber = Math.floor(Math.random() * quotes.length);
